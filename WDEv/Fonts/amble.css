@@ -1,0 +1,58 @@
+/* Amble */
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-Bold.woff') format('woff'), url('Amble/Amble-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-BoldItalic.woff') format('woff'), url('Amble/Amble-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-Regular.woff') format('woff'), url('Amble/Amble-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-Italic.woff') format('woff'), url('Amble/Amble-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-Light.woff') format('woff'), url('Amble/Amble-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Amble';
+	src: local('☺'), url('Amble/Amble-LightItalic.woff') format('woff'), url('Amble/Amble-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* Amble Condensed */
+
+@font-face {
+	font-family: 'Amble Condensed';
+	src: local('☺'), url('Amble/Amble-LightCondensed.woff') format('woff'), url('Amble/Amble-LightCondensed.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Amble Condensed';
+	src: local('☺'), url('Amble/Amble-LightCondensedItalic.woff') format('woff'), url('Amble/Amble-LightCondensedItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}

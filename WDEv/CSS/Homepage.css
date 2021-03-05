@@ -1,0 +1,131 @@
+/* Css Document */
+
+:root{
+    --MainColor: rgb(2,201,201);
+    user-select: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    font-family: 'Ostrich Sans';
+    font-size: 2em;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    color: var(--MainColor);
+    font-weight: 900;
+}
+
+.Name {
+    background-color: var(--MainColor);
+    padding-top: 30vh;
+    padding-bottom: 35vh;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.Section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.Bright{
+    background-color: white;
+}
+
+.Dark{
+    background-color: #333;
+    color: white;
+}
+
+.Profile {
+    background-color: white;
+}
+
+.Profile h3 {
+    font-family: 'Amble';
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+    
+}
+
+.Experience {
+    background-color: #333;
+    color: white;
+}
+
+.Experience ul{
+    padding: 0;
+}
+
+.Experience ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.Projects {
+    background-color: white;
+}
+
+.ExternalLinks {    
+    background-color: #333;
+}
+
+.Box {
+    background-color: rgba(100,100,100,0.5);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.Box ul {
+    display: inline-flex;
+    height: fit-content;
+    width:100%;
+    margin-bottom: 2vh;
+}
+
+.Box ul li {
+    float: left;
+    padding-left: 2vw;
+}
+
+.PreLine {
+    width: 20vw;
+    display: inline-block;
+}
+
+.PreLine p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Line {
+    display: inline-block;
+    border-left: 0.5vw solid var(--MainColor);
+    margin-left: 2vw;
+    width: 80%;
+}
+
+.Line p {
+    font-size: 0.5em;
+    vertical-align: middle;
+    font-family: 'Amble';
+    font-weight: 300;
+    width: 80%;
+}
